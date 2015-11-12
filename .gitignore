@@ -11,3 +11,6 @@ Release
 
 *.suo
 *.sdf
+
+# gubg.build cache dir
+.cache/
