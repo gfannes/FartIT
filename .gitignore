@@ -14,3 +14,8 @@ Release
 
 # gubg.build cache dir
 .cache/
+
+build.ninja
+.cook
+.ninja*
+*.exe

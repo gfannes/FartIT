@@ -1,0 +1,4 @@
+cook["fart"].recipe("exe", TargetType.Executable, fun(r){
+    r.add("Fart", "*.c*")
+    r.add("Fart", "*.h")
+})
