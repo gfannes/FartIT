@@ -1,7 +1,11 @@
 require(File.join(ENV['gubg'], 'shared'))
+require("gubg/build/Cooker")
 include GUBG
 
-task :define do
+task :prepare
+
+task :run do
+    Build::Cooker.new().generate(:ninja).ninja()
     publish("fart.exe", dst: 'bin') do |fn|
         case os
         when :windows then fn
