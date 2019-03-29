@@ -1,4 +1,4 @@
-require(File.join(ENV['gubg'], 'shared'))
+require(File.join(ENV['gubg'], 'ruby/gubg/shared'))
 require("gubg/build/Cooker")
 include GUBG
 
